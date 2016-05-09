@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0377CB301C0F4392001D2C7D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377CB2F1C0F4392001D2C7D /* TableViewController.swift */; };
+		0377CB321C0F4496001D2C7D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377CB311C0F4496001D2C7D /* City.swift */; };
+		0377CB341C0F4988001D2C7D /* MeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377CB331C0F4988001D2C7D /* MeetupViewController.swift */; };
+		037ED9031CE07C4200AC26ED /* NSErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037ED9021CE07C4200AC26ED /* NSErrorExtensions.swift */; };
+		0399948D1C1580D400D759E5 /* CitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0399948C1C1580D400D759E5 /* CitySearch.swift */; };
+		03D1B1C91C118C0900E96209 /* MeetupSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1B1C81C118C0900E96209 /* MeetupSearch.swift */; };
+		56ADCB7E1B9745B500385D1B /* MeetupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCB7D1B9745B500385D1B /* MeetupTableViewCell.swift */; };
+		56D4DFE91B95E5330047EBAC /* MeetupDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4DFE81B95E5330047EBAC /* MeetupDataSource.swift */; };
+		56DF04571B94A4F2003E418A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF04561B94A4F2003E418A /* AppDelegate.swift */; };
+		56DF04591B94A4F2003E418A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF04581B94A4F2003E418A /* ViewController.swift */; };
+		56DF045C1B94A4F2003E418A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF045A1B94A4F2003E418A /* Main.storyboard */; };
+		56DF045E1B94A4F2003E418A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DF045D1B94A4F2003E418A /* Assets.xcassets */; };
+		56DF04611B94A4F2003E418A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF045F1B94A4F2003E418A /* LaunchScreen.storyboard */; };
+		56DF046C1B94A4F2003E418A /* TourGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF046B1B94A4F2003E418A /* TourGuideTests.swift */; };
+		56DF04771B94A4F2003E418A /* TourGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF04761B94A4F2003E418A /* TourGuideUITests.swift */; };
+		56DF04891B94B178003E418A /* InfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF04881B94B178003E418A /* InfoItem.swift */; };
+		56FCF4861B95B1A300A4AC9C /* InfoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FCF4851B95B1A300A4AC9C /* InfoDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56DF04681B94A4F2003E418A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DF044B1B94A4F2003E418A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DF04521B94A4F2003E418A;
+			remoteInfo = TourGuide;
+		};
+		56DF04731B94A4F2003E418A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DF044B1B94A4F2003E418A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DF04521B94A4F2003E418A;
+			remoteInfo = TourGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0377CB2F1C0F4392001D2C7D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0377CB311C0F4496001D2C7D /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		0377CB331C0F4988001D2C7D /* MeetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupViewController.swift; sourceTree = "<group>"; };
+		037ED9021CE07C4200AC26ED /* NSErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtensions.swift; sourceTree = "<group>"; };
+		0399948C1C1580D400D759E5 /* CitySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitySearch.swift; sourceTree = "<group>"; };
+		03D1B1C81C118C0900E96209 /* MeetupSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupSearch.swift; sourceTree = "<group>"; };
+		56ADCB7D1B9745B500385D1B /* MeetupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupTableViewCell.swift; sourceTree = "<group>"; };
+		56D4DFE81B95E5330047EBAC /* MeetupDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupDataSource.swift; sourceTree = "<group>"; };
+		56DF04531B94A4F2003E418A /* MeetupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DF04561B94A4F2003E418A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56DF04581B94A4F2003E418A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56DF045B1B94A4F2003E418A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56DF045D1B94A4F2003E418A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56DF04601B94A4F2003E418A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56DF04621B94A4F2003E418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF04671B94A4F2003E418A /* MeetupDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DF046B1B94A4F2003E418A /* TourGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourGuideTests.swift; sourceTree = "<group>"; };
+		56DF046D1B94A4F2003E418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF04721B94A4F2003E418A /* MeetupDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DF04761B94A4F2003E418A /* TourGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourGuideUITests.swift; sourceTree = "<group>"; };
+		56DF04781B94A4F2003E418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF04881B94B178003E418A /* InfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoItem.swift; sourceTree = "<group>"; };
+		56FCF4851B95B1A300A4AC9C /* InfoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DF04501B94A4F2003E418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF04641B94A4F2003E418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF046F1B94A4F2003E418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0377CB351C0F4E7D001D2C7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56D11F591B984DFC00E3E592 /* Data Sources */,
+				03E368371CDCD928007606E1 /* View Controllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		037ED9041CE07C7B00AC26ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				037ED9021CE07C4200AC26ED /* NSErrorExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		03D1B1D21C11C53E00E96209 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03D1B1C81C118C0900E96209 /* MeetupSearch.swift */,
+				0399948C1C1580D400D759E5 /* CitySearch.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		03E368371CDCD928007606E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56DF04581B94A4F2003E418A /* ViewController.swift */,
+				0377CB2F1C0F4392001D2C7D /* TableViewController.swift */,
+				0377CB331C0F4988001D2C7D /* MeetupViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		56D11F591B984DFC00E3E592 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				56FCF4851B95B1A300A4AC9C /* InfoDataSource.swift */,
+				56D4DFE81B95E5330047EBAC /* MeetupDataSource.swift */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		56D11F5A1B984E1800E3E592 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				56DF045A1B94A4F2003E418A /* Main.storyboard */,
+				56DF045F1B94A4F2003E418A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		56D11F5B1B984EE300E3E592 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56ADCB7D1B9745B500385D1B /* MeetupTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		56DF044A1B94A4F2003E418A = {
+			isa = PBXGroup;
+			children = (
+				56DF04551B94A4F2003E418A /* TourGuide */,
+				56DF046A1B94A4F2003E418A /* TourGuideTests */,
+				56DF04751B94A4F2003E418A /* TourGuideUITests */,
+				56DF04541B94A4F2003E418A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DF04541B94A4F2003E418A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DF04531B94A4F2003E418A /* MeetupDemo.app */,
+				56DF04671B94A4F2003E418A /* MeetupDemo.xctest */,
+				56DF04721B94A4F2003E418A /* MeetupDemo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DF04551B94A4F2003E418A /* TourGuide */ = {
+			isa = PBXGroup;
+			children = (
+				56DF04561B94A4F2003E418A /* AppDelegate.swift */,
+				56DF045D1B94A4F2003E418A /* Assets.xcassets */,
+				56FCF4821B95AEB400A4AC9C /* Models */,
+				0377CB351C0F4E7D001D2C7D /* Controllers */,
+				56D11F5A1B984E1800E3E592 /* Storyboards */,
+				56DF04621B94A4F2003E418A /* Info.plist */,
+				037ED9041CE07C7B00AC26ED /* Extensions */,
+				56D11F5B1B984EE300E3E592 /* Views */,
+			);
+			path = TourGuide;
+			sourceTree = "<group>";
+		};
+		56DF046A1B94A4F2003E418A /* TourGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				56DF046B1B94A4F2003E418A /* TourGuideTests.swift */,
+				56DF046D1B94A4F2003E418A /* Info.plist */,
+			);
+			path = TourGuideTests;
+			sourceTree = "<group>";
+		};
+		56DF04751B94A4F2003E418A /* TourGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56DF04761B94A4F2003E418A /* TourGuideUITests.swift */,
+				56DF04781B94A4F2003E418A /* Info.plist */,
+			);
+			path = TourGuideUITests;
+			sourceTree = "<group>";
+		};
+		56FCF4821B95AEB400A4AC9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0377CB311C0F4496001D2C7D /* City.swift */,
+				56DF04881B94B178003E418A /* InfoItem.swift */,
+				03D1B1D21C11C53E00E96209 /* Extensions */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DF04521B94A4F2003E418A /* MeetupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF047B1B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemo" */;
+			buildPhases = (
+				56DF044F1B94A4F2003E418A /* Sources */,
+				56DF04501B94A4F2003E418A /* Frameworks */,
+				56DF04511B94A4F2003E418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetupDemo;
+			productName = TourGuide;
+			productReference = 56DF04531B94A4F2003E418A /* MeetupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56DF04661B94A4F2003E418A /* MeetupDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF047E1B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemoTests" */;
+			buildPhases = (
+				56DF04631B94A4F2003E418A /* Sources */,
+				56DF04641B94A4F2003E418A /* Frameworks */,
+				56DF04651B94A4F2003E418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DF04691B94A4F2003E418A /* PBXTargetDependency */,
+			);
+			name = MeetupDemoTests;
+			productName = TourGuideTests;
+			productReference = 56DF04671B94A4F2003E418A /* MeetupDemo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56DF04711B94A4F2003E418A /* MeetupDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF04811B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemoUITests" */;
+			buildPhases = (
+				56DF046E1B94A4F2003E418A /* Sources */,
+				56DF046F1B94A4F2003E418A /* Frameworks */,
+				56DF04701B94A4F2003E418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56DF04741B94A4F2003E418A /* PBXTargetDependency */,
+			);
+			name = MeetupDemoUITests;
+			productName = TourGuideUITests;
+			productReference = 56DF04721B94A4F2003E418A /* MeetupDemo.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DF044B1B94A4F2003E418A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marian O'Shea";
+				TargetAttributes = {
+					56DF04521B94A4F2003E418A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					56DF04661B94A4F2003E418A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 56DF04521B94A4F2003E418A;
+					};
+					56DF04711B94A4F2003E418A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 56DF04521B94A4F2003E418A;
+					};
+				};
+			};
+			buildConfigurationList = 56DF044E1B94A4F2003E418A /* Build configuration list for PBXProject "MeetupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DF044A1B94A4F2003E418A;
+			productRefGroup = 56DF04541B94A4F2003E418A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DF04521B94A4F2003E418A /* MeetupDemo */,
+				56DF04661B94A4F2003E418A /* MeetupDemoTests */,
+				56DF04711B94A4F2003E418A /* MeetupDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DF04511B94A4F2003E418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF04611B94A4F2003E418A /* LaunchScreen.storyboard in Resources */,
+				56DF045E1B94A4F2003E418A /* Assets.xcassets in Resources */,
+				56DF045C1B94A4F2003E418A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF04651B94A4F2003E418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF04701B94A4F2003E418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DF044F1B94A4F2003E418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF04591B94A4F2003E418A /* ViewController.swift in Sources */,
+				037ED9031CE07C4200AC26ED /* NSErrorExtensions.swift in Sources */,
+				0377CB321C0F4496001D2C7D /* City.swift in Sources */,
+				0377CB341C0F4988001D2C7D /* MeetupViewController.swift in Sources */,
+				56DF04891B94B178003E418A /* InfoItem.swift in Sources */,
+				56FCF4861B95B1A300A4AC9C /* InfoDataSource.swift in Sources */,
+				0399948D1C1580D400D759E5 /* CitySearch.swift in Sources */,
+				56DF04571B94A4F2003E418A /* AppDelegate.swift in Sources */,
+				03D1B1C91C118C0900E96209 /* MeetupSearch.swift in Sources */,
+				56D4DFE91B95E5330047EBAC /* MeetupDataSource.swift in Sources */,
+				0377CB301C0F4392001D2C7D /* TableViewController.swift in Sources */,
+				56ADCB7E1B9745B500385D1B /* MeetupTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF04631B94A4F2003E418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF046C1B94A4F2003E418A /* TourGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DF046E1B94A4F2003E418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DF04771B94A4F2003E418A /* TourGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56DF04691B94A4F2003E418A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DF04521B94A4F2003E418A /* MeetupDemo */;
+			targetProxy = 56DF04681B94A4F2003E418A /* PBXContainerItemProxy */;
+		};
+		56DF04741B94A4F2003E418A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DF04521B94A4F2003E418A /* MeetupDemo */;
+			targetProxy = 56DF04731B94A4F2003E418A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56DF045A1B94A4F2003E418A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DF045B1B94A4F2003E418A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56DF045F1B94A4F2003E418A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DF04601B94A4F2003E418A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DF04791B94A4F2003E418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DF047A1B94A4F2003E418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DF047C1B94A4F2003E418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.mos.MeetupDemo;
+				PRODUCT_NAME = MeetupDemo;
+			};
+			name = Debug;
+		};
+		56DF047D1B94A4F2003E418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TourGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.mos.MeetupDemo;
+				PRODUCT_NAME = MeetupDemo;
+			};
+			name = Release;
+		};
+		56DF047F1B94A4F2003E418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TourGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.marianoshea.TourGuideTests;
+				PRODUCT_NAME = MeetupDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupDemo.app/MeetupDemo";
+			};
+			name = Debug;
+		};
+		56DF04801B94A4F2003E418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TourGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.marianoshea.TourGuideTests;
+				PRODUCT_NAME = MeetupDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetupDemo.app/MeetupDemo";
+			};
+			name = Release;
+		};
+		56DF04821B94A4F2003E418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TourGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.marianoshea.TourGuideUITests;
+				PRODUCT_NAME = MeetupDemo;
+				TEST_TARGET_NAME = TourGuide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		56DF04831B94A4F2003E418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TourGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.marianoshea.TourGuideUITests;
+				PRODUCT_NAME = MeetupDemo;
+				TEST_TARGET_NAME = TourGuide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DF044E1B94A4F2003E418A /* Build configuration list for PBXProject "MeetupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF04791B94A4F2003E418A /* Debug */,
+				56DF047A1B94A4F2003E418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF047B1B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF047C1B94A4F2003E418A /* Debug */,
+				56DF047D1B94A4F2003E418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF047E1B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF047F1B94A4F2003E418A /* Debug */,
+				56DF04801B94A4F2003E418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF04811B94A4F2003E418A /* Build configuration list for PBXNativeTarget "MeetupDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DF04821B94A4F2003E418A /* Debug */,
+				56DF04831B94A4F2003E418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DF044B1B94A4F2003E418A /* Project object */;
+}
